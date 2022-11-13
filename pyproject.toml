@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Alexander_Dulalaev <camel1985@mail.ru>"]
 readme = "README.md"
-packages = [{include = "saucedemo_05"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"

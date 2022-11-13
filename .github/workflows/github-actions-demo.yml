@@ -36,8 +36,6 @@ jobs:
         run: firefox --version
       - name: Install poetry
         uses: snok/install-poetry@v1
-      - name: Create venv
-        run: poetry shell
       - name: Install dependencies
         run: poetry install
       - name: Run pytest
